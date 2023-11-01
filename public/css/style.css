@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.button-group {
+    display: flex;
+    align-items: baseline;
+}
+
+.button-group p {
+    margin-right: 10px;
+}
+
+button-group>*:not(:last-child) {
+    margin-right: 10px;
+}
